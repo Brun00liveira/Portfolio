@@ -1,0 +1,139 @@
+#home{
+    border-bottom: 20px solid #025554;
+    border-radius: 0px 0px 20px 20px ;
+    background: linear-gradient(50deg, #008876, #025554, #142e38, #002B5B);
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
+}
+@keyframes colors {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+/* nav */
+/*  */
+.nav-item{
+    color: #008876;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1 {
+    font-size: 5em;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+.brand{
+    font-family:Impact;
+}
+.img-item{
+    width:50%;
+    margin: 50px 0px 28px 110px;
+    border-bottom:8px solid white;
+}
+.main{
+    display:flex;
+
+    }
+.bar{
+    width: 70%;
+    height: 7px;
+}
+.title-progress{
+    font-size: 15px;
+}
+.skill-title{
+    border-bottom: 1px solid #008876;
+    width: 300px;
+}
+.contract{
+    background-color: #008876 ;
+
+}
+.card-text {
+    text-align: justify;
+  }
+.progress-bar{
+    background-color: #008876
+}
+
+.content{
+    padding-top: 30px;
+}
+
+.line
+{
+    height: 400px;
+    border-right: 1px solid #008876;
+    margin-left: -90px;
+}
+.line1
+{
+    height: 400px;
+    border-right: 1px solid #008876;
+    margin-left: -90px;
+}
+.skill-exp{
+    font-size: 15px;
+}
+.button-contact
+{
+    margin-right: 50px;
+
+}
+.btn-outline-light {
+    border: none;
+}
+.card{
+    background-color: transparent !important;
+    border: 1px solid #025554 !important;
+    box-shadow: 1px 2px 10px #025554;
+    color: white;
+}
+.w-100{
+    width: 60% !important;
+    margin-left: 100px;
+}
+a {
+    text-decoration: none !important;
+
+}
+/* link que ainda não foi visitado */
+a:link {
+    color: white;
+ }
+
+ /* link que foi visitado */
+ a:visited {
+     color: white;
+ }
+
+ /* mouse over */
+ a:hover {
+     color: white;
+     box-shadow: 1px 1px 10px black;
+ }
+
+ /* link selecionado */
+ a:active {
+     color: white;
+ }
+
+.nav-link {
+    box-shadow: none !important;
+}
+
